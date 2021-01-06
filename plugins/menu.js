@@ -17,14 +17,14 @@ desc: adicionar um membro no grupo.\n\n
 `.trim(), m)
 }
 handler.command = /^(menu|comandos|\?)$/i
-handler.owner = true
-handler.mods = true
+handler.owner = false
+handler.mods = false
 handler.premium = false
 handler.group = true
 handler.private = false
 
 handler.admin = true
-handler.botAdmin = true
+handler.botAdmin = false
 
 handler.fail = null
 
