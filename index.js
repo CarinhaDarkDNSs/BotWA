@@ -87,8 +87,8 @@ conn.handler = async function (m) {
 
 conn.on('message-new', conn.handler) 
 
-global.mods = ['19998612484@s.whatsapp.net']
-global.prems = ['19998612484@s.whatsapp.net']
+global.mods = ['5519998612484@s.whatsapp.net']
+global.prems = ['5519998612484@s.whatsapp.net']
 
 global.dfail = (type, m, conn) => {
   let msg = {
